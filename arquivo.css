@@ -4,84 +4,122 @@
     margin: 0;
     padding: 0;
 }
-header li a{
-    margin: 0 20px;
+header li{
     display: inline;
+    font-size: 15px;
 }
-.container li a{
-    color: rgb(232, 223, 223);
+.azul a{
+    color: rgb(7, 7, 7);
+    background-color: blanchedalmond;
     text-decoration: none;
-
+    font-size: 20px;
+    padding: 4px;
 }
-.container header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.verde a{
+    color: black;
+    background-color: darkgreen;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 4px;
 }
-header{
-    background-color: rgb(61, 59, 60);
-    padding: 16px 0;
-    
+    .roxo a{
+        color: black;
+        background-color: brown;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 4px;
+    }
+    .amarelo a{
+        color: black;
+        background-color: darkgoldenrod;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 4px;
+    }
+header .container{
+    background-color: rgb(48, 46, 44);
+    height: 80px;
 }
-header h1{
-    color: aliceblue;
-    margin-left: 5px;
+.category > h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.container h1{
+    color: azure;
 }
 .container{
     width: 1366px;
-    margin: 0 auto 0 auto;
-    align-items: center;
+    margin: 0 auto;
 }
 .article{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .article article img{
-    width: 100%;
+    height: 180px;
 }
 .article article{
     width: 30%;
 }
+header .container{
+    display: flex;
+    align-items: center;
+}
+.container li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
 section{
-    padding: 16px 0;
+    margin-top: 0px;
 }
-section h2{
-    padding-bottom: 12px;
-    color: beige;
+.article article > h2{
+    margin-bottom: 15px;
+    font-size: 30px;
 }
-footer{
-    color: azure;
+.article h3{
+    color: rgb(59, 57, 57);
+    margin-bottom: 5px;
 }
-article p{
-    margin-top: 8px;
-    margin-bottom: 8px;
-    color: rgb(245, 247, 248);
+#esportes{
+    background-color: rgb(192, 186, 186);
 }
-.article article a{
-    background-color: rgb(19, 18, 18);
-    color: aliceblue;
-    padding: 8px;
-    display: inline-block;
-    text-decoration: none;
-}
-.article article a :hover {
-    text-decoration: underline;
-
-}
-.article article p,
-.article article a{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.titulos h2{
-    color: rgb(24, 24, 24);
-    font-size: 35px;
+#economia{
+    background-color: rgb(218, 216, 214);
 }
 #games{
-    background-color: rgb(78, 81, 74);
+    background-color: rgb(246, 225, 225);
 }
 #musica{
-    background-color: rgb(188, 203, 198);
+    background-color: rgb(226, 217, 217);
 }
-.article article h2{
-    color: black;
+body{
+    background-color: rgb(208, 216, 223);
 }
+.article article a {
+    background-color: blue;
+    color: aliceblue;
+    display: inline-flex;
+    padding: 5px;
+    margin-top: 4px;
+}
+.article article a{
+    text-decoration: none;
+
+}
+.article article a :hover{
+    text-decoration: underline;
+}
+#esportes a{
+    background-color: black;
+}
+#economia a{
+    background-color: rgb(5, 139, 95);
+}
+#games a{
+    background-color: brown;
+}
+#musica a{
+    background-color: chocolate;
+}
+
